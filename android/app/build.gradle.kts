@@ -5,9 +5,6 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-tasks.named('copyFlutterAssetsRelease') {
-    doNotTrackState()
-}
 
 android {
     namespace = "com.example.greyfdr"
